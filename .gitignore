@@ -1,0 +1,26 @@
+# Build output and local release packages
+**/bin/
+**/obj/
+dist/
+release-assets/
+.tools/
+
+# Local account data and credentials
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+.env
+.env.*
+auth.json
+
+# Editor and operating system files
+.vs/
+.idea/
+*.user
+*.suo
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store

@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <InformationalVersion>1.0</InformationalVersion>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <Authors>kaywkkkkk</Authors>
+    <Copyright>Copyright (c) 2026 kaywkkkkk</Copyright>
+    <Product>Codex Quota Hub</Product>
+    <AssemblyTitle>Codex Quota Hub</AssemblyTitle>
+    <Description>Multi-account quota overview and reset alerts for Codex.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>

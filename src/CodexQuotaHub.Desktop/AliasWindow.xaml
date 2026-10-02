@@ -1,0 +1,41 @@
+<Window x:Class="CodexQuotaHub.Desktop.AliasWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource L_AliasTitle}" Width="450" Height="310"
+        ResizeMode="NoResize" WindowStartupLocation="CenterOwner" ShowInTaskbar="False"
+        Background="{DynamicResource Brush0D1117}" Foreground="{DynamicResource BrushE6EDF3}">
+    <Grid Margin="22">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="{DynamicResource L_AliasTitle}" FontSize="20" FontWeight="Bold"
+                   Margin="0,0,0,13" />
+        <TextBlock x:Name="AccountIdentityText" Grid.Row="1" FontSize="11"
+                   Foreground="{DynamicResource Brush9FB0BF}" TextWrapping="Wrap"
+                   Margin="0,0,0,17" />
+        <TextBlock Grid.Row="2" Text="{DynamicResource L_AliasLabel}"
+                   Margin="0,0,0,6" />
+        <TextBox x:Name="AliasText" Grid.Row="3" MaxLength="40" Height="30"
+                 Background="{DynamicResource Brush17212C}"
+                 Foreground="{DynamicResource BrushE6EDF3}"
+                 BorderBrush="{DynamicResource Brush30404E}"
+                 CaretBrush="{DynamicResource BrushE6EDF3}"
+                 Padding="8,5" />
+        <TextBlock x:Name="AliasHintText" Grid.Row="4" Text="{DynamicResource L_AliasHint}"
+                   Foreground="{DynamicResource Brush8293A3}"
+                   FontSize="11" TextWrapping="Wrap" Margin="0,10,0,0" />
+        <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="{DynamicResource L_Cancel}" Width="70" Margin="0,0,8,0"
+                    Background="{DynamicResource Brush34495C}"
+                    Foreground="{DynamicResource SecondaryButtonText}"
+                    Click="Cancel_Click" />
+            <Button x:Name="SaveButton" Content="{DynamicResource L_Save}" Width="70"
+                    IsDefault="True" Click="Save_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

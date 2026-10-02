@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CodexQuotaHub.Core/CodexQuotaHub.Core.csproj" />
+    <Project Path="src/CodexQuotaHub.Cli/CodexQuotaHub.Cli.csproj" />
+    <Project Path="src/CodexQuotaHub.Desktop/CodexQuotaHub.Desktop.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CodexQuotaHub.Core.Tests/CodexQuotaHub.Core.Tests.csproj" />
+    <Project Path="tests/CodexQuotaHub.Desktop.Visual/CodexQuotaHub.Desktop.Visual.csproj" />
+  </Folder>
+</Solution>
